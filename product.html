@@ -1,0 +1,291 @@
+<!doctype html>
+<html>
+
+<head>
+<title>Web Design 1</title>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+<style type="text/css" rel="stylesheet">
+</style>
+<link rel="stylesheet" type="text/css" href="css/product.css">
+</head>
+
+<body>
+	<main>
+	<header>
+		<div class="logo"><img src="image/intel-design-logo.jpg"></div>
+        <nav>
+        	<ul>
+        		<li>PRODUCTS</li>
+        		<li>SUPPORT</li>
+        		<li>SOLUTIONS</li>
+        		<li>DEVELOPERS</li>
+        		<li>PARTNERS</li>
+        	</ul>
+        </nav>
+	</header>
+	
+	<section>
+		<img src="image/product/banner.jpg">
+	</section>
+	<!--Collapse  -->
+	
+		<div class="ngg-faq">
+        
+        <button class="ngg-collapsible">
+        	<div class="content1"><img src="image/product/img5.jpg" alt=""><h3>Intel® Xeon® Scalable Processors</h3></div>
+        	<div class="content2"><h4>Intel® Xeon® Scalable processor family delivers unparalleled scale and performance for compute, storage, network, security.</h4></div></button>
+        <div class="ngg-content">
+          <div class="line">
+          <ul>
+          	<li>Intel® Xeon® Scalable Processors</li>
+          	<li>Intel® Xeon® Platinum Processors</li>
+          	<li>Intel® Xeon® Gold Processors</li>
+          	<li>Intel® Xeon® Silver Processors</li>
+          	<li>Intel® Xeon® Bronze Processors</li>
+          </ul>
+        </div>
+        </div>
+        
+        <button class="ngg-collapsible">
+        	<div class="content1"><img src="image/product/img8.jpg" alt=""><h3>Intel® Xeon® Processors</h3></div>
+        	<div class="content2"><h4>Built for data centers and workstations to handle the heavy processing demands of cloud, big data, modeling, AI, and more.</h4></div></button>
+        <div class="ngg-content">
+        	<div class="line">
+         <ul>
+          	<li>Intel® Xeon® Processors</li>
+          	<li>Intel® Xeon® E Processor</li>
+          	<li>Intel® Xeon® W Processor</li>
+          	<li>Intel® Xeon® D Processor</li>
+          </ul>
+        </div>
+        </div>
+        <button class="ngg-collapsible">
+        <div class="content1"><img src="image/product/img10.jpg" alt=""><h3>Intel® Core™ Processors</h3></div>
+        <div class="content2"><h4>Intel’s highest-performance CPUs for laptops and desktops, delivering advanced responsiveness, connectivity and graphics.</h4></div></button>
+        <div class="ngg-content">
+        	<div class="line">
+         <ul>
+          	<li>Intel® Core™ Processors</li>
+          	<li>Intel® Core™ X-Series Processor Family</li>
+          	<li>Intel® Core™ i9 Processors</li>
+          	<li>Intel® Core™ i7 Processors</li>
+          	<li>Intel® Core™ i5 Processors</li>
+          	<li>Intel® Core™ i3 Processors</li>
+          </ul>
+        </div>
+      </div>
+        
+        <button class="ngg-collapsible">
+        <div class="content1"><img src="image/product/img12.jpg" alt=""><h3>Intel® Processors</h3></div>
+         <div class="content2"><h4>Intel’s entry level CPUs provide the performance that you need with the affordability you want to connect, learn, and play anywhere.</h4></div></button>
+        <div class="ngg-content">
+        	<div class="line">
+          <ul>
+          	<li>Intel® Processor</li>
+          </ul>
+        </div>
+      </div>
+       
+
+
+        <button class="ngg-collapsible">
+        <div class="content1"><img src="image/product/img14.jpg" alt=""><h3>Intel® Atom Processors</h3></div>
+        <div class="content2"><h4>These small, powerful CPUs are ideal for mobile and IoT devices as well as high-density, low-energy data center applications.</h4></div></button>
+        <div class="ngg-content">
+        	<div class="line">
+          <ul>
+          	<li>Intel Atom® Processor</li>
+          	<li>Intel Atom® Processor C Series</li>
+          	<li>Intel Atom® Processor P Series</li>
+          </ul>
+        </div>
+      </div>
+       
+        <button class="ngg-collapsible">
+         <div class="content1"><img src="image/product/img16.jpg" alt="" class="last"><h3>Processors for IoT and Embedded Applications</h3></div><div class="content2"><h4>For swift deployment of edge applications, see Intel's portfolio of edge-ready compute and connectivity technologies.</h4></div></button>
+        <div class="ngg-content">
+        	<div class="line">
+         <ul>
+          	<li>Processors for IoT and Embedded Applications</li>
+          	<li>Intel® Xeon® Processors for Embedded Applications</li>
+          	<li>Intel® Core™ Processors for Embedded Applications</li>
+          	<li>Intel® Pentium® Processors for Embedded Applications</li>
+          	<li>Intel® Celeron® Processors for Embedded Applications</li>
+          	<li>Intel Atom® Processors for Embedded Applications</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+   
+    <!-- collpasible -->
+<script>
+var coll = document.getElementsByClassName("ngg-collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+ coll[i].addEventListener("click", function() {
+this.classList.toggle("active");
+var content = this.nextElementSibling;
+if (content.style.maxHeight){
+ content.style.maxHeight = null;
+} else {
+ content.style.maxHeight = content.scrollHeight + "px";
+}
+ });
+}
+</script> 
+
+
+	
+<article>
+<h2>Explore Other Intel® Products</h2>
+<div class="display">
+	<div class="exploreblock"><p class="dt">Intel® Evo™</p></div>
+	<div class="exploreblock"><p class="dt">Intel® Core™ vPro™ Processors Family</p></div>
+	<div class="exploreblock"><p class="dt">Intel® Core™ vPro™ Processors Family</p></div>
+	<div class="exploreblock"><p class="dt">Intel® Celeron® Processor</p></div>
+</div>
+
+</article>
+
+<!--<section class="blue">
+<h1>Intel®-Based Systems for Everything You Do</h1>
+<button><h4>Browse computer systems and devices powered by Intel</h4></button>
+<div class="tab border">
+<ul>
+	<li class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen"><p>Descktops</p></li>
+	<li><p>Laptops</p></li>
+	<li><p>All-in-Ones</p></li>
+	<li><p>Chromebooks</p></li>
+	<li><p>Gaming and Content Creation</p></li>
+	<li><p>2-in-1s</p></li>
+	<li><p>Mini PCs</p></li>
+</ul>
+</div>
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+</section> -->
+<section class="blue">
+	<div class="title">
+	<h1>Intel®-Based Systems for Everything You Do</h1>
+<button><h4>Browse computer systems and devices powered by Intel</h4></button></div>
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Desktops')" id="defaultOpen">Desktops</button>
+  <button class="tablinks" onclick="openCity(event, 'Laptops')">Laptops</button>
+  <button class="tablinks" onclick="openCity(event, 'All-in-Ones')">All-in-Ones</button>
+  <button class="tablinks" onclick="openCity(event, 'Chromebooks')">Chromebooks</button>
+  <button class="tablinks" onclick="openCity(event, 'Gaming-and-Content-Creation')">Gaming and Content Creation</button>
+  <button class="tablinks" onclick="openCity(event, '2-in-1s')">2-in-1s</button>
+  <button class="tablinks" onclick="openCity(event, 'Mini-PCs')">Mini PCs</button>
+</div>
+
+<div id="Desktops" class="tabcontent">
+  <img src="image/product/1.jpg" alt="">
+  <p>Intel®-based desktop PCs have powerful processing performance to handle complex tasks for both traditional computing and high-demand gaming.
+</p>
+</div>
+
+<div id="Laptops" class="tabcontent">
+	<img src="image/product/2.jpg" alt="">
+  <p>Standard laptops powered by Intel® technology are lightweight and portable, delivering reliable performance for daily computing needs.</p>
+</div>
+
+<div id="All-in-Ones" class="tabcontent">
+	<img src="image/product/3.jpg" alt="">
+  <p>All-in-One (AIO) computers with powerful Intel® Core™ processors inside streamline an entire desktop system into a single device, combining a sleek profile with full PC performance.</p>
+</div>
+<div id="Chromebooks" class="tabcontent">
+	<img src="image/product/4.jpg" alt="">
+  <p>A Chrome device with a powerful Intel® processor delivers an outstanding experience on the web and running Chrome apps, Android apps, and Linux apps.</p>
+</div>
+<div id="Gaming-and-Content-Creation" class="tabcontent">
+  <img src="image/product/5.jpg" alt="">
+  <p>Intel®-based systems for media and gaming deliver ultra-responsive multimedia experiences with 4K display support and more.</p>
+</div>
+<div id="2-in-1s" class="tabcontent">
+  <img src="image/product/6.jpg" alt="">
+  <p>2 in 1 laptops powered by the latest Intel® technologies deliver the performance and mobility that you expect from a laptop.</p>
+</div>
+ <div id="Mini-PCs" class="tabcontent">
+ 	 <img src="image/product/7.jpg" alt="">
+  <p>Mini PCs are full-capability computers small enough to tuck away in a drawer.</p>
+</div>
+
+</section>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active2", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active2";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+<!--Disclaimer-->
+<div class="disclaim">
+	<p>Notices and Disclaimers<sup>1</sup><sup>2</sup></p>
+	<h6>Product and Performance Information
+1Intel® technologies may require enabled hardware, software, or service activation. No product or component can be absolutely secure. Your costs and results may vary.
+2Software and workloads used in performance tests may have been optimized for performance only on Intel® microprocessors. Performance tests, such as SYSmark* and MobileMark*, are measured using specific computer systems, components, software, operations and functions. Any change to any of those factors may cause the results to vary. You should consult other information and performance tests to assist you in fully evaluating your contemplated purchases, including the performance of that product when combined with other products. For more complete information visit www.intel.com/benchmarks. Performance results are based on testing as of dates shown in configurations and may not reflect all publicly available updates. See backup for configuration details. No product or component can be absolutely secure.</h6>
+
+</div>
+<footer>
+		<div class="footer10"><img src="image/intel-footer.jpg" alt=""></div>
+		<div class="footer90">
+			<div class="footerlink">
+				<ul>
+					<li>Company Overview</li>
+					<li>Contact Intel</li>
+					<li>Newsroom</li>
+					<li>Investors</li>
+					<li>Careers</li>
+					<li>Corporate Responsiblity</li>
+					<li>Diversity & Inclusion</li>
+					<li>Public Poilicy</li>
+				</ul>
+			</div>
+			<div class="footericon">
+				<ul>
+					<li><img src="image/facebook-icon.jpg" alt=""></li>
+					<li><img src="image/twitter-icon.jpg" alt=""></li>
+					<li><img src="image/linkedin-icon.jpg" alt=""></li>
+					<li><img src="image/youtube-icon.jpg" alt=""></li>
+					<li><img src="image/instagram-icon.jpg" alt=""></li>
+				</ul>
+			</div>
+			<div class="footerlink2">
+				<ul>
+					<li>© Intel Corporation | </li>
+					<li>Terms of Use | </li>
+					<li>*Trademarks | </li>
+					<li>Cookies | </li>
+					<li>Privacy | </li>
+					<li>Supply Chain Transparency | </li>
+					<li>Site Map | </li>
+					<li>Do Not Share My Personal Information | </li>
+					<li>Recycling | </li>
+				</ul>
+			</div>
+			<p class="disclaimer">Intel technologies may require enabled hardware, software or service activation. // No product or component can be absolutely secure. // Your costs and results may vary. // Performance varies by use, configuration and other factors. // See our complete legal Notices and Disclaimers. // Intel is committed to respecting human rights and avoiding complicity in human rights abuses. See Intel’s Global Human Rights Principles. Intel’s products and software are intended only to be used in applications that do not cause or contribute to a violation of an internationally recognized human right.</p>
+
+		</div>
+	</footer>
+	</main>
+
+</body>
+
+
+</html>
