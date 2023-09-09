@@ -1,0 +1,159 @@
+@font-face {
+  font-family: intel;
+  src: url(../font/IntelClear_Rg.woff);
+}
+html, h1, h2, section, h4, p, h6, h3{font-family:'intel' !important}
+body{margin: 0 ;}
+main{max-width:1300px; width:100%; margin:auto}
+header{background: #0193ff;}
+h4{font-size:14px;}
+.logo{text-align: center;}
+nav ul{list-style: none;text-align: center; padding: 1% 1% 30px;}
+nav li{display: inline-block; text-align: center; color:white; width:10%}
+ .swiper {
+      width: 100%;
+      
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+.swiper-scrollbar{background-color: #0193ff;}
+
+
+/* COLLAPSIBLE */
+
+.ngg-faq{width:100%; text-align: center;}
+.active, .ngg-collapsible:hover { background-color: #fff; }
+/* COLLAPSIBLE */
+.ngg-collapsible {
+  background-color:#f7f7f7; color:#01344f; cursor:pointer; 
+  padding:18px 18px 10px; width:97%; border-bottom:1px solid #e0e0e0; 
+  text-align:left; outline:none; font-size:1.1em; height:100px;
+margin-top:0.5%;border: 0;}
+
+.active, .ngg-collapsible:hover { background-color: #fff; }
+
+.ngg-collapsible:after {
+  content:'\25b3'; color:#01344f; font-weight:bold; float:right; margin-left:5px;  }
+.active:after {
+  content:"\25bc";}
+
+.ngg-content {
+ padding:0; max-height:0; overflow:hidden; transition:max-height 0.2s ease-out; background-color:#fff; }
+.ngg-content p { text-align: left; padding:1% 3% 3%; font-size:24px; color:#464646; }
+button { border:0; font-weight:600; }
+.content1, .content2 { float:left; }
+.content1{width: 35%;; margin-right:3%; font-size: 14px}
+.content1 img{vertical-align: middle;margin-right:10px}
+.content2{ width:50% }
+.content2 h4{margin-top:2%;}
+.ngg-content ul{list-style: none;text-align: left;margin-left: 8%; padding-left:0}
+.ngg-content li{display: inline-block;margin: 1.5% 1.1% 1.5%; width: 21%; font-size:0.9em;  }
+.h{height:10%; width:49%; display: inline-block;}
+.last{margin-top: -25px}
+
+
+/*Explore*/
+.exploreblock{width: 30%; background-color: #f3f3f3; margin:1% 2% 2% 0; display: inline-block; height:80px;align-items: center}
+.dt{float:left; margin:7% 0 0 8%;font-size: 16px;width: 100%}
+
+
+/* Footer   */
+.footerlink ul{list-style: none; padding-left: 0}
+.footerlink li{display: inline-block; margin-right: 2%; font-size: 15px}
+.footericon ul{list-style: none; padding:10px 0 10px 0 }
+.footericon li{display: inline-block;margin-right:1% }
+.footerlink2 ul{list-style: none; padding-left:0 }
+.footerlink2 li{display: inline-block; font-size:10px;}
+.footer10{width: 10%; float:left; margin-top:10%}
+.footer90{width: 80%; float:left; padding:3%;}
+.wblock{background-color: white; height:20px; width: 402px}
+.disclaimer{font-size: 10px;}
+h3{color: #5656ff; font-size: 18px; display: inline-block;
+  width: 65%; font-weight:lighter; margin-top:3%; margin-left: 8%;}
+footer{width: 100%; background-color: #e7e7e7; height:350px; margin-top: 5%}
+
+h2{font-weight: lighter;}
+
+.blue{width: 100%;height: 630px;background-color: #0068b5; padding-top: 1%;}
+/*
+.border ul { list-style:none; height:213px;}
+.border li:first-child { border-top:1px solid white; }
+.border li { border-bottom:1px solid white; height:40px;color:white; }
+.border li:hover { border-left:5px solid white; }*/
+.border{width: 20%;height: 213px;margin-top: 5%}
+li p{margin-top: 4%; margin-left: 3%}
+li p:first-child {margin-top: 3%}
+h1{text-align: center; color: white; font-size: 30px;
+  font-weight: lighter; }
+.blue button{width: 35%; background-color: white;color:#02497e;font-size: 16px;
+  height:35px; /*margin-left:32%; */}
+
+.blue h4{margin-top: 1.5%}
+
+.disclaim{width:98%;margin: auto; margin-top: 4%}
+.disclaim p {font-size: 25px; font-weight: lighter;}
+
+/* Style the tab */
+.tab {
+  float: left;
+  width: 30%;
+  height: 300px;
+  margin-left: 1%;
+}
+.tab button:first-child{border-top:1px solid white}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: white;
+  padding: 22px 16px 35px;
+  width: 80%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+  margin-left:0;
+  border-bottom: 1px solid white;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active2 {
+ border-left: 5px solid white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  width: 48%;
+  border-left: none;
+  height: 300px;
+  margin-left: 7%;
+  color:white;
+  margin-top:4%;
+}
+.title{display: block; text-align: center; margin-bottom: 2%;}
+.line{border-top:4px solid #00aeef;}
