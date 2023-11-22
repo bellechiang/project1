@@ -1,2 +1,2 @@
-# project1
-Intel web design mockup
+# project1 Intel web design mockup
+
